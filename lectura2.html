@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<img src="logounad.jpg" alt="">
+    <nav>
+        <ul class="menu">
+        <li><a href="index.html" class="nav-enlace">Inicio</a></li>
+        <li><a href="lecturas.html" class="nav-enlace">Lecturas</a>
+            <ul class="subitem">
+                <li><a href="lecturas.html" class="nav-enlace">¿Que es?</a></li>
+                <li><a href="lectura2.html" class="nav-enlace">Historia</a></li>
+                <li><a href="lectura3.html" class="nav-enlace">La nube</a></li>
+                <li><a href="lectura4.html" class="nav-enlace">Diferencias</a></li>
+                <li><a href="lectura5.html" class="nav-enlace">Complemento</a></li>
+            </ul>
+        </li>
+        <li><a href="multimedia.html" class="nav-enlace">Multimedia</a></li>
+        <li><a href="actividades.html" class="nav-enlace">Actividades</a>
+            <ul class="subitem">
+                <li><a href="actividades.html" class="nav-enlace">Actividad 1</a></li>
+                <li><a href="actividad2.html" class="nav-enlace">Actividad 2</a></li>
+                <li><a href="actividad3.html" class="nav-enlace">Actividad 3</a></li>
+            </ul>
+        </li>
+    <li><a href="autores.html" class="nav-enlace">Autores</a></li>
+        </ul>
+        
+    </nav>
+
+    <div>
+        <a href="lecturas.html" class="nav-enlace">¿Que es?</a>
+        <a href="lectura2.html" class="nav-enlace">Historia</a>
+        <a href="lectura3.html" class="nav-enlace">La nube</a>
+        <a href="lectura4.html" class="nav-enlace">Diferencias</a>
+        <a href="lectura5.html" class="nav-enlace">Complemento</a>
+    </div>
+<h1>Pasado y presente del Data Warehouse</h1>
+<div>
+    <p>Históricamente, los data warehouses se habían formado utilizando datos repetitivos estructurados que eran filtrados antes de entrar en el data warehouse. Sin embargo, en los últimos años, el data warehouse ha evolucionado debido a información contextual que ahora se puede adjuntar a los datos no estructurados y que también puede ser almacenada.</p>
+    <p>Aquellos primeros datos relacionales estructurados no podían ser mezclados y emparejados para temas analíticos con datos textuales no estructurados. Pero con el advenimiento de la contextualización, estos tipos de análisis ahora sí pueden hacerse de forma naturales y fácil.</p>
+    <p>En el data warehouse, datos no repetitivos, como los comentarios en una encuesta, correos electrónicos y conversaciones, se tratan de forma diferente a las ocurrencias repetitivas de datos, como el flujo de clics, mediciones o el procesamiento máquina o analógico. Los datos no repetitivos son datos basados en textos que fueron generados por la palabra escrita o hablada, leída y reformateada y, lo que es más importante, ahora puede ser contextualizada. Con el fin de extraer cualquier sentido de los datos no repetitivos para su uso en el Data Warehouse, deben tener el contexto de los datos establecidos.</p>
+    <p>En muchos casos, el contexto de los datos no repetitivos es más importante que los datos en sí. En cualquier caso, los datos no repetitivos no pueden utilizarse para la toma de decisiones hasta que se haya establecido el contexto.</p>
+    <h2>Data Lakes y Data Warehouses: ¿mutuamente exclusivos o partners perfectos?</h2>
+    <p>Los data lakes han surgido en el paisaje de Data Management en los últimos años, sin embargo, data lake no es necesariamente un reemplazo del data warehouse. En cambio, complementan los esfuerzos existentes y dan soporte al descubrimiento de nuevas preguntas. Una vez que se descubren esas preguntas se optimizan las respuestas. Y optimizar puede significar moverse fuera del data lake para ir a un data mart o al data warehouse.</p>
+    <p>Estas son algunas diferencias clave entre data lake y data warehouse:</p>
+    <ul>
+        <li>
+            <p>Datos: Un data warehouse sólo almacena datos que han sido modelados o estructurados, mientras que un Data Lake no hace acepción de datos. Lo almacena todo, estructurado, semiestructurado y no estructurado.</p>
+        </li>
+        <li>
+            <p>Procesamiento: Antes de que una empresa pueda cargar datos en un data warehouse, primero debe darles forma y estructura, es decir, los datos deben ser modelados. Eso se llama schema-on-write. Con un data lake, sólo se cargan los datos sin procesar, tal y como están, y cuando esté listo para usar los datos, es cuando se le da forma y estructura. Eso se llama schema-on-read. Dos enfoques muy diferentes.</p>
+        </li>
+        <li>
+            <p>Almacenamiento: Una de las principales características de las tecnologías de big data, como Hadoop, es que el coste de almacenamiento de datos es relativamente bajo en comparación con el de un data warehouse. Hay dos razones principales para esto: en primer lugar, Hadoop es software de código abierto, por lo que la concesión de licencias y el soporte de la comunidad es gratuito. Y segundo, Hadoop está diseñado para ser instalado en hardware de bajo coste.</p>
+        </li>
+        <li>
+            <p>Agilidad: Un almacén de datos es un repositorio altamente estructurado, por definición. No es técnicamente difícil cambiar la estructura, pero puede tomar mucho tiempo dado todos los procesos de negocio que están vinculados a ella. Un data lake, por otro lado, carece de la estructura de un data warehouse, lo que da a los desarrolladores y a los científicos de datos la capacidad de configurar y reconfigurar fácilmente y en tiempo real sus modelos, consultas y aplicaciones.</p>
+        </li>
+        <li>
+            <p>Seguridad: La tecnología del data warehouse existe desde hace décadas, mientras que la tecnología de big data (la base de un Data Lake) es relativamente nueva. Por lo tanto, la capacidad de asegurar datos en un data warehouse es mucho más madura que asegurar datos en un data lake. Cabe señalar, sin embargo, que se está realizando un importante esfuerzo en materia de seguridad en la actualidad en la industria de Big Data.</p>
+        </li>
+    </ul>
+    <h2>El data warehouse continúa evolucionando</h2>
+    <p>Hay todavía un gran potencial en la evolución del data warehouse y su uso sigue adelante.
+    </p>
+    <p>El procesamiento analítico clásico de datos basado en transacciones se realiza en el data warehouse como siempre se ha hecho. Nada ha cambiado ahí. Pero ahora puede hacerse analítica sobre datos contextualizados, y esa forma de análisis es nueva. La mayoría de las organizaciones, hasta ahora no habían podido basar su toma de decisiones en datos textuales no estructurados. Y ahora hay una nueva forma de análisis posible en un Data Warehouse: la posibilidad de la mezcla de análisis. El análisis combinado se realiza mediante una combinación de datos transaccionales estructurados y datos contextuales no estructurados.</p>
+    <p>Existen muchas otras formas de análisis que también son posibles. Estas formas incluyen análisis predictivo y prescriptivo, así como tecnologías de machine learning y otras que están cambiando la forma en que los datos son administrados y analizados. El data warehouse ha sido durante mucho tiempo un elemento básico de la arquitectura de datos empresarial y sigue teniendo tiene un gran futuro en el nuevo mundo de Big Data y la analítica avanzada.</p>
+</div>
+
+</body>
+</html>

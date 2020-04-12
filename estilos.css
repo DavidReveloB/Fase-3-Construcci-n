@@ -1,0 +1,38 @@
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: blueviolet;
+}
+nav{
+    background: rebeccapurple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    list-style: none;
+}
+.subitem{
+    list-style: none;
+    padding: 0;
+}
+.menu > li{
+    float: left;
+}
+.menu li ul{
+    display: none;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.video{
+    padding: 30px 30px;
+}
+#indeximg{
+    padding: 100px 100px;
+}
